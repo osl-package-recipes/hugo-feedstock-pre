@@ -39,9 +39,6 @@ jobs:
           use-mamba: true
           miniforge-variant: Mambaforge
           
-      - name: copy and prepare recipe
-        run: make prepare-recipe
-
       - name: conda build
         run: make build
 
