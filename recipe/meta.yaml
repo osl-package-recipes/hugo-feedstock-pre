@@ -1,4 +1,4 @@
-{% set name = "hugo" %}
+{% set name = "hugo-extended" %}
 {% set version = "0.105.0" %}
 
 
